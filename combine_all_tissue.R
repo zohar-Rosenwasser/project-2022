@@ -5,9 +5,10 @@ library(tidyverse)
 library(tibble)
 
 # get an argiments
-# 1 - /private7/projects/zohar/alu/ds_alu_REDIToolsKnown/chr4_2938248_2938792/REDItoolKnown.out.combined
-# 2 - /private7/projects/zohar/alu/ds_alu_REDIToolsKnown/chr4_2938248_2938792/REDItoolKnown.out.combined_all_tissue.csv
-# 3 - 30 
+# 1 - known output
+# 2 - output path
+# 3 - min coverage per sample
+
 args = commandArgs(trailingOnly=TRUE)
 input_csv <- args[1]
 output_csv <- args[2]
