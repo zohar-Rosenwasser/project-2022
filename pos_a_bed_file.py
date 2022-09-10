@@ -27,11 +27,9 @@ def bed_a_pos(csv_read, csv_write):
                 for nuc in fasta:
                     if strand == "+":
                         if nuc == 'a' or nuc == 'A':
-                            #print(chr + " " + str(pos) +" " + str(int(pos+1)) +" " + nuc )
                             pos_a.writerow([chr, str(int(pos+1)), strand, alu[4]])
                     else:
                         if nuc == 't' or nuc == 'T':
-                            #print(chr + " " + str(pos) +" " + str(int(pos+1)) + " " + nuc)
                             pos_a.writerow([chr,str(int(pos+1)),strand,alu[4]])
                     pos+=1
 
