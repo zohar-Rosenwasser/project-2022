@@ -2,6 +2,9 @@ library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 
+# This program accepts as input the data for all adenosines in ds and produces graphs that display the data
+
+
 df_combine_tissue <- read.csv("/private7/projects/zohar/alu/ds_alu_REDIToolsKnown/chr4_2938248_2938792/combined_all_tissue_with_seq_pair_loop_stem_chr4_2938248_2938792.csv", header=TRUE, stringsAsFactors=FALSE)
 df_combine_tissue <- df_combine_tissue %>% filter(Pair != 'NAN')
 
