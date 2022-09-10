@@ -1,7 +1,7 @@
 #!/bin/bash
 # zohar rosenwasser 
-# This program takes as input the starting position of the first alu and the final position of the second alu,
-# the strand of the gene and the chromosome. The program runs known for all the samples in each of the tissue
+# This program takes as input the 1: ds name, 2: chromosome, 3:starting position of the first alu,  4:final position of the second alu,
+# 5: strand of the gene, 6: adonsine position file. The program runs known for all the samples in each of the tissue
 # of the gtex database. After that produces an output to a csv file and a shape file.
 
 ds_name=$1
