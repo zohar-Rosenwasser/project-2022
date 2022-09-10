@@ -1,7 +1,7 @@
 import sys
 import pandas as pd
 
-# This program receives the output of running known for all samples and consolidates the data for each Position
+# This program receives the output of running known for all samples and path to output csv and consolidates the data for each Position
 
 def main():
     df = pd.read_csv(sys.argv[1])
